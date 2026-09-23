@@ -1,0 +1,43 @@
+{
+  "diagnostic_tool": "Packaged CLI Diagnostics Tool",
+  "system": {
+    "python_version": "3.13.5",
+    "python_executable": "/opt/pyvenv/bin/python",
+    "platform": "linux",
+    "disk_space": {
+      "total_gb": 31.45,
+      "used_gb": 0.01,
+      "free_gb": 29.83
+    },
+    "environment": {
+      "PATH_configured": true,
+      "VIRTUAL_ENV": null
+    },
+    "developer_tools": {
+      "git": {
+        "installed": true,
+        "version": "git version 2.47.3"
+      },
+      "pip": {
+        "installed": false,
+        "version": null
+      },
+      "pytest": {
+        "installed": false,
+        "version": null
+      }
+    }
+  },
+  "events": {
+    "event_count": 5,
+    "error_count": 2,
+    "warning_count": 1,
+    "services": [
+      "billing-api",
+      "profile-api"
+    ],
+    "status": "FAIL",
+    "status_codes_valid": true
+  },
+  "overall_status": "FAIL"
+}
